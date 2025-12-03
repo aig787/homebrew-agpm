@@ -1,25 +1,25 @@
 class AgpmCli < Formula
   desc "AGent Package Manager - A Git-based package manager for coding agents"
   homepage "https://github.com/aig787/agpm"
-  version "0.4.10"
+  version "0.4.11"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/aig787/agpm/releases/download/v0.4.10/agpm-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "09f81fb3159fdbe421bfd764013d4766c67eef69cb56240f858b3f3986f838de"
+      url "https://github.com/aig787/agpm/releases/download/v0.4.11/agpm-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "7e97b0bfd5a48ed0c82582355da618d7e2423dfae07f13774d007b6bd223bc1b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/aig787/agpm/releases/download/v0.4.10/agpm-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "a0e999b7bf42f5cb8e06dd3f2be43b4bad0a4b42ea53bf341027c238c962432c"
+      url "https://github.com/aig787/agpm/releases/download/v0.4.11/agpm-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "8661c144e24213dd7d0c407c7f3bf3c4b4f7b06e8bc4b538a848e3eb38c71298"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/aig787/agpm/releases/download/v0.4.10/agpm-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "86680c465cd3375643aa43bde70c6e8d75aba3bcccfa9f0bc86735a4ce48cc4a"
+      url "https://github.com/aig787/agpm/releases/download/v0.4.11/agpm-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4ac6c68510ed4fb9154a655671e3359f47f59a465d4b608c8dc51067d22c9c0e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/aig787/agpm/releases/download/v0.4.10/agpm-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7afebb1b0852095bd4b5c13711b01db6faf8148865db45a6ee7fcef72f8dac23"
+      url "https://github.com/aig787/agpm/releases/download/v0.4.11/agpm-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1988aff92119ff3f4f2f4e3a8e0aa0b5ad87d1e3251360797f7d0ca6e0ee094e"
     end
   end
   license "MIT"
